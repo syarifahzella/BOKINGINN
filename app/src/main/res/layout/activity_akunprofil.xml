@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bokingin.akunprofil"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pp2"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:text="Sirinda"
+        android:textAlignment="center"
+        android:layout_marginTop="205dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Handphone : 08979796564321"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : sirinda21@gmail.com"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat Tanggal Lahir : Pontianak, 31 Oktober 1997"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/buttontolak"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Edit"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:onClick="edit"/>
+
+</RelativeLayout>
